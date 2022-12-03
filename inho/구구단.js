@@ -7,6 +7,9 @@ function googoo(num) {
       
         let result = "";
         for (let j = num; j < num + 4; j++) {
+            if(j%4==0){
+                continue
+            }
           
           result += `${j} * ${i} = ${j * i}  `;
         }

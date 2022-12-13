@@ -27,5 +27,9 @@
 // 모든 부서의 물품을 구매해주면 10원이 됩니다. 따라서 최대 4개 부서의 물품을 구매해 줄 수 있습니다.
 
 function solution(d, budget) {
+    var answer = 0
+    for(i=0;i<budget.length;i++){
+        
+    }
   return;
 }
